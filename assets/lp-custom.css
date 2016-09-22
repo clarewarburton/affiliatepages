@@ -1,0 +1,42 @@
+.masthead {
+    padding: 1em 0
+}
+
+
+@media (min-width:768px) {
+    .hero {
+        padding: 4em 0 0 0;
+        text-align: left
+    }
+}
+
+
+.footer {
+    padding: 2em 1em 1em;
+    background: #162036;
+    color: #fff;
+    font-size: .75em;
+    text-align: center
+}
+
+a {
+    color: #ff720b
+}
+
+a:hover {
+    color: #ff720b
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5em
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Roboto Slab", serif;
+    line-height: 1.25em
+}
