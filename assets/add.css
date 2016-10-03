@@ -2,7 +2,7 @@
     background-color: #162036; 
     text-align: center; 
     color: #FFF; 
-    padding: 10px 0 30px 0
+    padding: 0 0 30px 0
 }
 
 .masthead {
@@ -89,7 +89,7 @@ ul.addicon li.blog:before {
     text-decoration: inherit;
     position: absolute;
     font-size: 20px;
-    color: #162036;
+    color: #999999;
     top: 50%;
     right: 20px;
     margin-top: -15px
@@ -106,6 +106,7 @@ ul.addicon li.blog:before {
     transition: max-height .15s ease-out;
     overflow: hidden;
     padding: 0;
+    padding-right: 100px
 }
 
 .faq .row p.show {
@@ -120,13 +121,6 @@ ul.addicon li.blog:before {
     padding: 1em 0
 }
 
-
-@media (min-width:768px) {
-    .hero {
-        padding: 4em 0 0 0;
-        text-align: left
-    }
-}
 
 
 .footer {
